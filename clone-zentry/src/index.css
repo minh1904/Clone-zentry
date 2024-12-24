@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face{
+    font-family::"circular-web";
+    src:url("../fonts/CircularStd-Book.woff2") format("woff2");
+  }
+  @font-face{
+    font-family:'general';
+    src:url("../fonts/GeneralSans-Regular.woff2") format("woff2");
+  }
+  @font-face{
+    font-family:"robert-medium";
+    src:url("../fonts/RobertSans-Medium.woff2") format("woff2");
+
+  }
+  @font-face{
+    font-family:"robert-regular";
+    src:url("../fonts/RobertSans-Regular.woff2") format("woff2");
+  }
+}
